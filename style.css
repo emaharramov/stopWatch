@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a0b7f0;
+    font-family: 'Inter',sans-serif;
+}
+.stopwatch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.watchControllers{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.watchControllers > button {
+    padding: 8px 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid darkgreen;
+}
+.stopwatch_in {
+    text-align: center;
+    box-shadow: 0 0 30px darkolivegreen;
+    padding: 50px;
+}
+h3 {
+    background: linear-gradient( to right, #D3EDFF ,#FCAAA3 );
+    color: color-mix(in hsl longer hue, hsl(138, 32%, 47%) 50%, rgb(72, 114, 77));    
+    box-shadow: 0 0 20px darkolivegreen;
+    padding: 10px 40px;
+
+}
