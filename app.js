@@ -34,7 +34,7 @@ start_btn.onclick = function startTimer(){
                     minute.innerHTML =  minutes
                 }
             }
-            if(second<10){
+            if(seconds<10){
                 second.innerHTML = "0" + seconds
             }else {
                 second.innerHTML = seconds
