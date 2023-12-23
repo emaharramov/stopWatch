@@ -39,7 +39,7 @@ start_btn.onclick = function startTimer(){
             }else {
                 second.innerHTML = seconds
             }
-        }, 0.0001);
+        }, 1000);
     }
     start_btn.innerHTML = 'Started'
     stop_btn.innerHTML = "Stop"
